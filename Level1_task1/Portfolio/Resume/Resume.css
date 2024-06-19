@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.ResumeHeading{
+    color: yellow;
+}
+#resumeBtn{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    border-radius: 5px;
+}
+.ResumeLink{
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+}

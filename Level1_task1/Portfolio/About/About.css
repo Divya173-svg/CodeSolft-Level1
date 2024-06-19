@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#Profile {
+
+  
+    /* width: 90vw;
+    object-fit: cover;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    /* backdrop-filter: blur(10px); */
+    /* z-index: 1;
+    
+    border-radius: 50%; */ 
+    width: 200px; /* Set to desired width */
+    height: 200px; /* Set to desired height, same as width for circle */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.Profile-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ProfileImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutName {
+    color: yellow;
+}
+
+.Aboutintro {
+
+    padding-top: 0;
+    /* margin-top: -10rem; */
+    color: white;
+    /* font-size: 1rem; */
+    text-decoration: dashed;
+    font-size: 0.85em;
+
+}
+
+.AboutPage {
+    max-width: 700px;
+    margin: 50px auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #4f4d4d;
+    box-shadow: 0 0 100px rgba(142, 143, 134, 0.1);
+    border-radius: 8px;
+  
+}
